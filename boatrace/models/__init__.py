@@ -11,3 +11,6 @@ from .racer_rank import RacerRank
 from .stadium_tel_code import StadiumTelCode
 from .weather import Weather
 from .winning_trick import WinningTrick
+
+VERSION = (0, 0, 1)
+__version__ = ".".join([str(x) for x in VERSION])
